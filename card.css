@@ -12,17 +12,21 @@ header{
     /* background-color: rgb(255, 255, 255); */
     padding: 0 20px 20px 20px;
     /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
+    background-color: #222;
+    color: #eee;
+    margin-bottom: 40px;
 }
 header .nav-list{
     display: flex;
     justify-content: space-evenly;
     list-style: none;
+    
    
     
 }
 header .nav-list li a{
     text-decoration: none;
-    color: black;
+    color: #eee;
     padding: 10px 20px;
     font-size: 1.2em;
     font-weight: 600;
@@ -69,10 +73,11 @@ header .nav-list li a{
     background-color:lightpink;
 }
 .footer {
-  /* background-color: #222; */
-  /* color: #eee; */
+  background-color: #222;
+  color: #eee;
   padding: 40px 0 20px;
   font-family: Arial, sans-serif;
+  margin-top: 40px;
 }
 
 .footer-container {
@@ -92,12 +97,12 @@ header .nav-list li a{
 
 .footer-section h2,
 .footer-section h3 {
-  /* color: #fff; */
+  color: #fff;
   margin-bottom: 15px;
 }
 
 .footer-section p {
-  /* color: #ccc; */
+  color: #ccc;
   font-size: 14px;
   line-height: 1.6;
 }
@@ -107,6 +112,6 @@ header .nav-list li a{
   border-top: 1px solid #444;
   padding-top: 10px;
   margin-top: 20px;
-  /* color: #aaa; */
+  color: #aaa;
   font-size: 13px;
 }
