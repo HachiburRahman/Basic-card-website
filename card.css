@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    max-width: 1170px;
+    background-color: antiquewhite;
+    margin: 0 auto;
+    
+}
+header{
+    /* background-color: rgb(255, 255, 255); */
+    padding: 0 20px 20px 20px;
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
+}
+header .nav-list{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+   
+    
+}
+header .nav-list li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.card-section{
+    text-align: center;
+}
+.card-container{
+    display: flex;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 30px;
+}
+.card{
+    width: 400px;
+    border: 2px solid lightgreen;
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(186, 232, 0);
+    box-shadow: 20px 20px 20px rgba(149, 143, 143, 0.021);
+    text-align: left;
+}
+.card:hover{
+    background-color: rgba(0, 255, 255, 0.3);
+}
+.card img{
+    width: 100%;
+    /* padding: 10px; */
+    margin: 0 auto;
+    
+}
+.card h3{
+    font-size: 1.2em;
+    font: 700;
+}
+.card button{
+    background-color: rgba(228, 158, 158, 0.956);
+    /* color: aliceblue; */
+    border-radius: 5px;
+}
+.card button:hover{
+    background-color:lightpink;
+}
+.footer {
+  /* background-color: #222; */
+  /* color: #eee; */
+  padding: 40px 0 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 250px;
+  margin: 20px 0;
+}
+
+.footer-section h2,
+.footer-section h3 {
+  /* color: #fff; */
+  margin-bottom: 15px;
+}
+
+.footer-section p {
+  /* color: #ccc; */
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #444;
+  padding-top: 10px;
+  margin-top: 20px;
+  /* color: #aaa; */
+  font-size: 13px;
+}
